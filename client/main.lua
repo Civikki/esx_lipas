@@ -108,7 +108,7 @@ Citizen.CreateThread(function()
           else
             if hash~=nil then
               if VittuAmmoaSaatana >= MaksimiAmmot then
-                  ESX.ShowNotification('Sinulla on täysi lipas asesaasi')
+                  ESX.ShowNotification('~g~Sinulla on täysi lipas aseessa')
                 elseif VittuAmmoaSaatana < MaksimiAmmot then
                   for k,v in pairs(pyssyt) do
                     if GetSelectedPedWeapon(PlayerPedId()) == k then
